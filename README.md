@@ -33,7 +33,11 @@ $ yarn serve
 
 # よくありそうな質問
 
-## HTMLファイルどこにあるんですか?
+## Q. PostCSS のプラグインの設定箇所は?
+
+`postcss.config.js`をお使いください。
+
+## Q. HTMLファイルどこにあるんですか?
 
 ビルド後のファイルは`dist`ディレクトリに配置されますが、
 HtmlWebpackPluginを使って生成しているため元になるHTMLはありません。
